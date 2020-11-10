@@ -1,0 +1,271 @@
+doctype html
+html(lang='en')
+	head
+		include elements/head.pug
+	body
+
+		// Main page start
+		main
+
+			// Cookie banner
+			include elements/cookie.pug
+
+			// Intro screen start
+			include elements/intro.pug
+
+			// Gallery start
+			section.gallery
+				.container
+
+					.gallery-collage
+						img(src="images/collage-gallery-1.png")
+						img(src="images/collage-gallery-2.png")
+						img(src="images/collage-gallery-3.png")
+
+					.gallery-image
+
+						.gallery-slider
+							.gallery-list
+								a(href="images/gallery/storck-img_01.jpg")
+									img(src="images/gallery/storck-img_01.jpg")
+								a(href="images/gallery/storck-img_02.jpg")
+									img(src="images/gallery/storck-img_02.jpg")
+								a(href="images/gallery/storck-img_03.jpg")
+									img(src="images/gallery/storck-img_03.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_04.jpg")
+									img(src="images/gallery/storck-img_04.jpg")
+								a(href="images/gallery/storck-img_05.jpg")
+									img(src="images/gallery/storck-img_05.jpg")
+								a(href="images/gallery/storck-img_06.jpg")
+									img(src="images/gallery/storck-img_06.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_07.jpg")
+									img(src="images/gallery/storck-img_07.jpg")
+								a(href="images/gallery/storck-img_08.jpg")
+									img(src="images/gallery/storck-img_08.jpg")
+								a(href="images/gallery/storck-img_09.jpg")
+									img(src="images/gallery/storck-img_09.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_10.jpg")
+									img(src="images/gallery/storck-img_10.jpg")
+								a(href="images/gallery/storck-img_11.jpg")
+									img(src="images/gallery/storck-img_11.jpg")
+								a(href="images/gallery/storck-img_12.jpg")
+									img(src="images/gallery/storck-img_12.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_13.jpg")
+									img(src="images/gallery/storck-img_13.jpg")
+								a(href="images/gallery/storck-img_14.jpg")
+									img(src="images/gallery/storck-img_14.jpg")
+								a(href="images/gallery/storck-img_15.jpg")
+									img(src="images/gallery/storck-img_15.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_16.jpg")
+									img(src="images/gallery/storck-img_16.jpg")
+								a(href="images/gallery/storck-img_17.jpg")
+									img(src="images/gallery/storck-img_17.jpg")
+								a(href="images/gallery/storck-img_18.jpg")
+									img(src="images/gallery/storck-img_18.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_19.jpg")
+									img(src="images/gallery/storck-img_19.jpg")
+								a(href="images/gallery/storck-img_20.jpg")
+									img(src="images/gallery/storck-img_20.jpg")
+								a(href="images/gallery/storck-img_21.jpg")
+									img(src="images/gallery/storck-img_21.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_22.jpg")
+									img(src="images/gallery/storck-img_22.jpg")
+								a(href="images/gallery/storck-img_23.jpg")
+									img(src="images/gallery/storck-img_23.jpg")
+								a(href="images/gallery/storck-img_24.jpg")
+									img(src="images/gallery/storck-img_24.jpg")
+
+							.gallery-list
+								a(href="images/gallery/storck-img_25.jpg")
+									img(src="images/gallery/storck-img_25.jpg")
+								a(href="images/gallery/storck-img_26.jpg")
+									img(src="images/gallery/storck-img_26.jpg")
+								a(href="images/gallery/storck-img_27.jpg")
+									img(src="images/gallery/storck-img_27.jpg")
+
+						// Button for slider
+						.buttons
+							button.prev-slide ← Previous
+							button.next-slide Next →
+
+			// Awards
+			section.awards
+				.container
+
+					.awards-content
+						.wrap
+							h3 Awards
+							p Performance price of the city of Essen
+							p Cultural Promotion Association of the State of North Rhine-Westphalia
+							p Appointment to the Board of Directors of the World Harp Congress
+							p Silesian Culture Prize
+							p Honorary member of the Polish and German Harp Society, as well as the Society Kinder in Kinder in Warsaw
+							p Polish Culture Prize Gloria Arts
+
+			// Education
+			section.education
+				.container
+
+					.row
+						h4 Educational Activities
+
+						ul
+							li Professor at music academies
+							li Cologne - University of Music
+							li Munich - University of Music and Theater
+							li Salzburg - University Mozarteum
+							li Katowice - Academia Muzyczna
+
+						ul
+							li Lecturer
+							li Federal Youth Orchestra
+							li Mainz Villa Musica
+							li Orchestra Academy Music Festival Schleswig Holstein
+
+			// New
+			section.new
+				.container
+
+					.new-content
+
+						h4 New in Munich!
+
+						p Dear harpists, dear friends
+						br
+						p in the last years the amount of masterclasses and also competitions, Festivals, Youth orchestras around the world increased immensely! It’s becoming more and more difficult for young musicians to find free time for concentrated work and practising under the control of an experienced teacher. For this reason I decided to start this year a special training program for harpists of all ages in my home in Munich. Besides my private lessons you will be offered during your stay a single room with a harp, bathroom and breakfast.
+
+						p The period of staying and costs can be discussed.
+						br
+						p Prof. Helga Storck
+
+						.wrap-btn
+							a(href="#contact").btn.primary Contact
+							a(href="document/Storck-Flyer.pdf" , target="_blank").btn.secondary Open flyer
+
+			// Concerts
+			section.education.concert
+				.container
+
+					.row
+
+						.concert-column
+							h4 Orchestra Positions - Solo Harpist
+							ul.mb-40
+								li Symphony Orchestra of the West German Radio, Cologne
+								li Philharmonic Orchestra and Hamburg State Opera
+								li Symphony Orchestra of the Bavarian Radio
+								li Munich Philharmonic Orchestra
+								li Festival Orchestra Bayreuth
+
+							h4 Old Music
+							ul
+								li Member of the Studio for Early Music (T. Binkley) Munich
+								li Concerts and recordings with the orchestra of the 18th century Amsterdam under the direction of Frans Brüggen
+								li Duo performance with Konrad Hünteler - transverse flute and historical harp (18th century)
+								li CD recordings with works by Monteverdi, Schütz and others with Gustav Leonard and Hans Martin Schneidt
+
+						.concert-column
+							h4 Concert activity under the direction of
+							p.fs-14.mb-40 R. Kubelik, K. Böhm, R. Kempe, F. Rieger, Ch. V. Dohnanyi, D. Mitropoulos, G. Wand, H. Zender, J. Keilberth, H. W. Henze, W. Michniewski, S. Ozawa, H. Wakasugi, S. Celibidache, F. Brüggen, F. Leitner, M. Janowski, A. Witt, K. Tennstedt, L. Maazel, W. Gielen, B. Maderna, K. H. Stockhausen, M. Kagel, N. Santi, K. Mazur, W. Sawallisch, Z. Metha, P. Boulez, P. Hindemtith, W. Rowicki, Ch. Eschenbach, and others
+
+							h4 Masterclasses
+							p.fs-14.mb-40 Germany, France, Switzerland, England, Spain, Austria, Poland, Scotland, Russia, USA, Brazil, Japan, Korea, China, Thailand
+
+							h4 Jury Activities
+							p.fs-14.mb-40 Germany, France, Switzerland, Netherlands, England, Austria, Spain, Poland, Russia, USA, Brazil, Japan, Korea, China, Thailand, Israel
+
+			// Publications
+			section.publications
+				.container
+
+					.row
+
+						.publications-cover
+							a(href="images/publications/storck-publikation-genzmer.png").cover-img: img(src="images/publications/image-17.png")
+							a(href="images/publications/storck-publikation-louis-spohr.png").cover-img: img(src="images/publications/image-16.png")
+							a(href="images/publications/storck-publikation-schott.png").cover-img: img(src="images/publications/image-15.png")
+
+						.publications-info
+							h4 Publications
+							p.mb-40 Orchestra, chamber music and solo literature with publishers:
+
+							ul
+								li Schott-Mainz
+								li Peters - Frankfurt, New York
+								li Bärenreiter - Kassel
+								li Sikorski - Hamburg
+								li Dohr - Köln
+
+			// Recordings
+			section.recording
+				.container
+
+						.recording-content
+
+							.recording-column
+								h4 CD - Recordings
+								ul
+									li Aspekte
+									li Calig
+									li Colosseum
+									li Deutschen Grammophon
+									li Etcetera
+									li Vox
+									li Warner Classics
+									li Philips
+									li Erato
+									li Telefunken
+									li Teldec
+									li Polskie Nagrania
+									li Muza
+
+							ul.recording-list
+								li
+									a(href="images/recordings/cd_menotti-nocturne.jpg"): img(src="images/recordings/image-20.png")
+								li
+									a(href="images/recordings/cd_mozart-vol-2.jpg"): img(src="images/recordings/image-21.png")
+								li
+									a(href="images/recordings/cd_harfenmussik-russischer-meister.jpg"): img(src="images/recordings/image-22.png")
+								li
+									a(href="images/recordings/cd_beethoven.jpg"): img(src="images/recordings/image-23.png")
+								li
+									a(href="images/recordings/cd_harp-french-impressionists.jpg"): img(src="images/recordings/image-24.png")
+								li
+									a(href="images/recordings/cd_mozart-complete-works-flute-harp.jpg"): img(src="images/recordings/image-25.png")
+								li
+									a(href="images/recordings/cd_mozart-flute-harp-concerto.jpg"): img(src="images/recordings/image-26.png")
+								li
+									a(href="images/recordings/cd_musik-harfe-cello.jpg"): img(src="images/recordings/image-27.png")
+								li
+									a(href="images/recordings/cd_dittersdorf.jpg"): img(src="images/recordings/image-28.png")
+								li
+									a(href="images/recordings/cd_tadeusz-baird.jpg"): img(src="images/recordings/image-29.png")
+								li
+									a(href="images/recordings/cd_louis-spohr.jpg"): img(src="images/recordings/image-30.png")
+
+			// Contact
+			section#contact.contact
+				.container
+
+					img(src="images/contact.png" , title="Contact")
+
+
+		// Footer start
+		include elements/footer.pug
+
+		// jQuery & Bootstrap scripts
+		include elements/scripts.pug
