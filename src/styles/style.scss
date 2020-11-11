@@ -11,7 +11,44 @@ $grey-color: #F7F7F7;
 $title-color: #CDB265;
 
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Alice&family=Playfair+Display:wght@400;700&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Alice-Regular&family=Playfair+Display:wght@400;700&display=swap');
+
+// Fonts local
+@font-face {
+  font-family: 'Alice-Regular';
+  src: url('../fonts/Alice-Regular.eot');
+  src: url('../fonts/Alice-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Alice-Regular.svg#Alice-Regular-Regular') format('svg'),
+       url('../fonts/Alice-Regular.ttf') format('truetype'),
+       url('../fonts/Alice-Regular.woff') format('woff'),
+       url('../fonts/Alice-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Bold';
+  src: url('../fonts/PlayfairDisplay-Bold.eot');
+  src: url('../fonts/PlayfairDisplay-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PlayfairDisplay-Bold.svg#PlayfairDisplay-Bold') format('svg'),
+       url('../fonts/PlayfairDisplay-Bold.ttf') format('truetype'),
+       url('../fonts/PlayfairDisplay-Bold.woff') format('woff'),
+       url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../fonts/PlayfairDisplay-Regular.eot');
+  src: url('../fonts/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'),
+       url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype'),
+       url('../fonts/PlayfairDisplay-Regular.woff') format('woff'),
+       url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 	* {
 		margin: 0;
@@ -27,7 +64,7 @@ $title-color: #CDB265;
 		min-height: 100%;
 		position: relative;
 		background-color: #fff;
-		font-family: 'Alice', sans-serif;
+		font-family: 'Alice-Regular', sans-serif;
 		font-weight: 400;
 		font-style: normal;
 		color: $default-text-color;
@@ -144,8 +181,7 @@ main {
 		position: absolute;
 		left: 90px;
 		bottom: 10px;
-		font-family: Playfair Display;
-		font-weight: 400;
+		font-family: PlayfairDisplay-Regular;
 		color: $title-color;
 		font-size: 24px;
 		line-height: 32px;
@@ -154,7 +190,7 @@ main {
 				max-width: 300px;
     		display: inline-block;
     		margin-right: 40px;
-				font-weight: 700;
+				font-family: PlayfairDisplay-Bold;
 				font-size: 100px;
 				line-height: 133px;
 			}
@@ -183,7 +219,7 @@ main {
 				}
 		}
 		a {
-			font-family: Playfair Display;
+			font-family: PlayfairDisplay-Regular;
 			font-size: 21px;
 			line-height: 28px;
 			color: $default-text-color;
@@ -251,7 +287,7 @@ main {
 	}
 
 	.prev-slide , .next-slide {
-		font-family: Playfair Display;
+		font-family: PlayfairDisplay-Regular;
 		font-size: 18px;
 		line-height: 24px;
 		color: $action-color;
@@ -316,12 +352,11 @@ main {
 			}
 
 			h3 {
-				font-family: Playfair Display;
+				font-family: PlayfairDisplay-Bold;
 				font-size: 41px;
 				line-height: 55px;
 				margin-bottom: 50px;
 				color: $yellow-color;
-				font-weight: 700;
 			}
 
 			p {
@@ -359,7 +394,7 @@ main {
 }
 
 	h4 {
-		font-family: Playfair Display;
+		font-family: PlayfairDisplay-Regular;
 		font-size: 24px;
 		line-height: 32px;
 		color: $action-color;
@@ -377,7 +412,7 @@ main {
 		font-size: 32px;
 		line-height: 42px;
 		margin-bottom: 40px;
-		font-weight: 700;
+		font-family: PlayfairDisplay-Bold;
 	}
 
 	p {
@@ -409,8 +444,7 @@ main {
 		margin-top: 30px;
 		padding: 13px 0;
 		text-decoration: none;
-		font-family: Playfair Display;
-		font-weight: 700;
+		font-family: PlayfairDisplay-Bold;
 		font-size: 18px;
 		line-height: 24px;
 		text-align: center;
@@ -597,7 +631,7 @@ footer {
 	margin-top: 50px;
 	margin-left: 50px;
 	text-decoration: none;
-	font-family: Playfair Display;
+	font-family: PlayfairDisplay-Regular;
 	font-size: 21px;
 	line-height: 28px;
 	color: $default-text-color;
@@ -617,15 +651,14 @@ footer {
 
 	h2 {
 		margin-bottom: 30px;
-		font-family: Playfair Display;
-		font-weight: 700;
+		font-family: PlayfairDisplay-Bold;
 		font-size: 41px;
 		line-height: 55px;
 		color: $action-color;
 	}
 
 	.page-title {
-		font-family: Playfair Display;
+		font-family: PlayfairDisplay-Regular;
 		font-size: 24px;
 		line-height: 32px;
 		margin-bottom: 40px;
